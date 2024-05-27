@@ -11,6 +11,7 @@ Public Class Form1
 		TreeView1.Nodes(0).Nodes(2).Nodes.Add("ADO.NET")
 		TreeView1.Nodes(0).Nodes(2).Nodes(0).Nodes.Add("Dataset")
 	End Sub
+Begin sub
 	Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
 		MsgBox(TreeView1.SelectedNode.FullPath)
 	End Sub
